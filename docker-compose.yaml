@@ -1,0 +1,10 @@
+version: '3'
+services:
+  document-composer:
+    build:
+      context: .
+    image: document-composer:v1
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
