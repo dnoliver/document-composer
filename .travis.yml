@@ -13,4 +13,7 @@ services:
   - docker
 
 script:
+- docker-compose run document-composer -c "standard citations.js"
+- docker-compose run document-composer -c "pylint document_composer.py"
 - docker-compose run document-composer build.sh
+- if [ ! -f "./build/Document.docx" ]; then echo "Failed" && false; fi

@@ -6,7 +6,7 @@ process.stdin
   })
   .on('end', () => {
     // Select all links that have url targets
-    const matches = str.match(/\[([^\[\]]+)\]\(http([^)]+)\)/gm)
+    const matches = str.match(/\[([^[\]]+)\]\(http([^)]+)\)/gm)
 
     if (matches) {
       const citationsCollection = []
@@ -14,9 +14,9 @@ process.stdin
 
       for (const i in matches) {
         const match = matches[i]
-        const parts = match.match(/\[([^\[\]]+)\]\((http[^)]+)\)/)
+        const parts = match.match(/\[([^[\]]+)\]\((http[^)]+)\)/)
         if (parts) {
-          var citationObject = {
+          const citationObject = {
             name: parts[1],
             link: parts[2]
           }

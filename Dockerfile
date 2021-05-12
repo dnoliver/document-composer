@@ -21,4 +21,4 @@ RUN pip3 install "docxcompose==1.0.0" "python-docx==0.8.10" "pylint==2.8.2" && \
 
 WORKDIR /app
 
-CMD sh
+ENTRYPOINT [ "/bin/sh" ]
