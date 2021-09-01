@@ -3,6 +3,10 @@ services:
   document-composer:
     build:
       context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
     image: document-composer:v1
     volumes:
       - .:/app
