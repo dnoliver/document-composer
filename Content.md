@@ -9,6 +9,8 @@ Ullamcorper velit sed ullamcorper morbi tincidunt. Enim nunc faucibus a pellente
 rutrum tellus pellentesque. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Eget magna
 fermentum iaculis eu non. Risus feugiat in ante metus.
 
+!["Creative Commons logo"](./assets/cc.png)
+
 ## Et molestie ac feugiat sed lectus vestibulum
 
 Et molestie ac feugiat sed lectus vestibulum. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Elit
